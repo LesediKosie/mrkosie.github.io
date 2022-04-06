@@ -1,0 +1,187 @@
+/*CSS style sheet*/
+
+* {
+    rgin: 0;
+    padding: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-image: url(../images/green.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 97vh;
+}
+
+.inner {
+    width: 30vw;
+    height: 93vh;
+    background-color: rgba(255, 255, 255, 0.72);
+    border-radius: 10px;
+}
+
+.title {
+    width: 30vw;
+    height: 12vh;
+    align-items: center;
+    background-color: rgba(6, 234, 41, 0.38);
+    color: #ffffff;
+}
+
+.title h3 {
+    padding-left: 8%;
+    font-size: 2em;
+}
+
+.conent {
+    border-bottom: 5px solid white;
+    height: 37vh;
+}
+
+.txt {
+    background-color: #fffefe;
+    margin-top: 20%;
+    margin-left: 8%;
+    width: 25vw;
+}
+
+.txt1 {
+    background-color: #fffefe;
+    margin-top: 1%;
+    margin-left: 8%;
+    width: 25vw;
+}
+
+.txt1 {
+    padding-right: 2%;
+    padding-left: 0;
+}
+
+.glyphicon {
+    color: #b2b2b2;
+    font-size: 18px;
+}
+
+.content input {
+    width: 22vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 0;
+}
+
+.btnsub {
+    text-align: center;
+}
+
+.btnsub input {
+    margin-right: 10%;
+    padding: 2% 6% 2% 6%;
+    margin-top: 3%;
+    background-color: rgb(206, 217, 255);
+    border: 0;
+    color: black;
+}
+
+.btnsub input:hover {
+    background-color: #44ff44;
+}
+
+.content input[placeholder] {
+    font-size: 1.3em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#main-wrapper {
+    width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 13px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.72);
+}
+
+.cute {
+    width: 150px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.myform {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.inputvalues {
+    width: 430px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#login_btn {
+    margin-top: 10px;
+    background-color: #27ae60;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#register_btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #3498db;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#submit_btn {
+    margin-top: 10px;
+    background-color: #27ae60;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#back_btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #3498db;
+    padding: 5px;
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#logout_btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #3498db;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
